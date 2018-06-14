@@ -1,0 +1,317 @@
+body {
+  margin: 0; }
+
+main {
+  position: relative;
+  cursor: none; }
+
+g {
+  cursor: none; }
+  g text.star-symbol {
+    font-size: 14px;
+    font-family: Verdana; }
+  g text.fz-9 {
+    font-size: 9px; }
+  g text.fz-10 {
+    font-size: 10px; }
+  g text.fz-11 {
+    font-size: 11px; }
+  g text.fz-12 {
+    font-size: 12px; }
+  g text.fz-13 {
+    font-size: 13px; }
+  g text.fz-14 {
+    font-size: 14px; }
+  g text.fz-16 {
+    font-size: 16px; }
+  g text.fz-17 {
+    font-size: 17px; }
+  g text.fz-19 {
+    font-size: 19px; }
+  g text.fz-20 {
+    font-size: 20px; }
+
+.screen {
+  -webkit-border-radius: 26px 26px 0px 0px;
+          border-radius: 26px 26px 0px 0px;
+  max-width: 1017px;
+  width: 100%;
+  height: 666px;
+  margin-left: 92px;
+  margin-top: 5px;
+  background: #1A1A1A;
+  position: relative; }
+  .screen:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-border-radius: 26px;
+            border-radius: 26px;
+    background: #30302E;
+    -webkit-border-radius: 26px 26px 0px 0px;
+            border-radius: 26px 26px 0px 0px;
+    height: 30px;
+    top: 5px; }
+
+.laptop-svg {
+  max-width: 1200px;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+.keyboard-key {
+  fill: #7E828D;
+  stroke-width: 2px;
+  -webkit-filter: url(#shadow);
+          filter: url(#shadow); }
+
+.screen {
+  fill: #576777;
+  -webkit-filter: url(#shadow-screen);
+          filter: url(#shadow-screen); }
+
+.screen-top {
+  fill: #d4d4d4; }
+
+.laptop-case {
+  fill: #d4d4d4;
+  -webkit-filter: url(#shadow-laptop-case);
+          filter: url(#shadow-laptop-case); }
+
+.laptop-keyboard {
+  fill: #d4d4d4;
+  stroke: #626166; }
+
+.laptop-touchpad {
+  fill: #d4d4d4;
+  stroke: #626166;
+  cursor: none; }
+
+.screen-display {
+  fill: black; }
+
+.display-output {
+  left: 116px;
+  width: 968px;
+  height: 549px;
+  position: absolute;
+  top: 48px;
+  background: #000;
+  font-family: "SegoeUI-Light";
+  cursor: none;
+  overflow: hidden; }
+
+.pressed {
+  -webkit-filter: none;
+          filter: none;
+  stroke: #626166;
+  stroke-width: 1px; }
+
+#shadow {
+  color: #626166; }
+
+.bcs-arrow {
+  font-weight: 900; }
+
+.bcs-arrow-line {
+  font-size: 16px; }
+
+.keyboard-key-symbol {
+  fill: #fff;
+  font-size: 8px;
+  font-family: sans-serif; }
+  .keyboard-key-symbol.power {
+    stroke: #fff;
+    fill: transparent; }
+
+.key-text-dislocation {
+  -webkit-transform: translate(-2px, -2px);
+      -ms-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px); }
+
+.enter-arrow-line {
+  font-size: 5px;
+  font-weight: 900; }
+
+.user-img {
+  background: rgba(102, 102, 102, 0.65);
+  width: 120px;
+  height: 120px;
+  margin: 0px auto;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: relative; }
+  .user-img:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+  .user-img span:first-of-type {
+    display: block;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    top: 18%;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  .user-img span:last-of-type {
+    display: block;
+    width: 50%;
+    height: 26px;
+    position: absolute;
+    border: 4px solid transparent;
+    border-top-color: #fff;
+    top: 48%;
+    left: 0px;
+    right: 0;
+    border-top: 4px solid #fff;
+    margin: auto;
+    -webkit-border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0; }
+
+#text {
+  width: 236px;
+  height: 26px;
+  background: rgba(0, 11, 27, 0.65);
+  margin: 14px auto 0px;
+  border: 2px solid #5C6C7B;
+  position: relative; }
+
+#enteredText {
+  display: block;
+  line-height: 26px;
+  max-height: 100%;
+  padding: 0px 30px 0px 4px;
+  max-width: 100%;
+  overflow: hidden;
+  color: #5C6C7B; }
+
+.user-name {
+  font-size: 48px;
+  display: block;
+  text-align: center;
+  color: #fff; }
+
+.laptop-keyboard-underline {
+  fill: #4e5c6b;
+  opacity: 0.65; }
+
+.login-btn {
+  width: 26px;
+  height: 26px;
+  background: #50A4E4;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 26px; }
+  .login-btn svg {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    max-width: 14px;
+    position: relative;
+    top: 1px;
+    fill: #fff; }
+
+#cursor {
+  background: url("../img/cursor.png");
+  width: 10px;
+  height: 16px;
+  position: absolute;
+  z-index: 10; }
+
+.hide {
+  display: none;
+  position: relative; }
+
+.login-wrap {
+  position: relative;
+  z-index: 11;
+  cursor: url("../img/select2.png"), auto;
+  margin: 0 auto;
+  max-width: 240px; }
+
+.login-page {
+  height: 100%;
+  width: 100%;
+  padding-top: 130px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.time-screen {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+.time {
+  display: block;
+  color: #fff;
+  font-size: 60px; }
+
+.date {
+  display: block;
+  color: #fff;
+  font-size: 40px;
+  text-transform: capitalize; }
+
+.date-time {
+  position: absolute;
+  bottom: 40px;
+  left: 20px; }
+
+.display-output-bg {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: url("https://picsum.photos/970/600/?random");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  z-index: 0; }
+
+@-webkit-keyframes hide-to-top {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); }
+  100% {
+    -webkit-transform: translate(0px, -1000px);
+            transform: translate(0px, -1000px); } }
+
+@keyframes hide-to-top {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); }
+  100% {
+    -webkit-transform: translate(0px, -1000px);
+            transform: translate(0px, -1000px); } }
+
+.hide-to-top {
+  -webkit-animation-name: hide-to-top;
+          animation-name: hide-to-top;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+.zoomed {
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 0.6; }
