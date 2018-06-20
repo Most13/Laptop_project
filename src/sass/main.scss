@@ -193,13 +193,15 @@ g{
 	position: relative;
 }
 #enteredText{
-	display: block;
-	line-height: 26px;
-	max-height: 100%;
-	padding: 0px 30px 0px 4px;
-	max-width: 100%;
-	overflow: hidden;
-	color: #5C6C7B;
+  display: inline-block;
+    line-height: 26px;
+    max-height: 100%;
+    border: none;
+    width: calc(100% - 34px);
+    outline: none;
+    padding: 0px 30px 0px 4px;
+    overflow: hidden;
+    color: #5C6C7B;
 }
 .user-name{
 	font-size: 48px;
@@ -221,7 +223,7 @@ g{
 	top: 0;
 	text-align: center;
 	line-height: 26px;
-	//cursor: url("../img/select2.png"), auto;
+    cursor: url("../img/select2.png"), auto;
 	svg{
 		transform: rotate(180deg);
 		max-width: 14px;
@@ -244,7 +246,7 @@ g{
 .login-wrap{
 	position: relative;
 	z-index: 11;
-	cursor: url("../img/select2.png"), auto;
+	
 	margin: 0 auto;
 	max-width: 240px;
 }

@@ -1,12 +1,12 @@
-var x = 'x';
-let theTextBox = document.getElementById('enteredText'); 
-let allTheKeys = document.getElementById('key-items'); 
-let changeKeys = document.getElementsByClassName('keyboard-key'); 
-let capsLockKey = document.getElementById('20');
-let shiftKey = document.getElementById('16');
-var rShift = document.getElementById("rightShift");
-var rAlt = document.getElementById("rightAlt");
-var cursor =  document.getElementById("cursor");
+var x             = 'x';
+var theTextBox    = document.getElementById('enteredText'); 
+var allTheKeys    = document.getElementById('key-items'); 
+var changeKeys    = document.getElementsByClassName('keyboard-key'); 
+var capsLockKey   = document.getElementById('20');
+var shiftKey      = document.getElementById('16');
+var rShift        = document.getElementById("rightShift");
+var rAlt          = document.getElementById("rightAlt");
+var cursor        = document.getElementById("cursor");
 
 //Store all the original values of the non-alphabetical keys
 var originalShifterArray = []; 
@@ -63,8 +63,8 @@ function highlightAndType(e){
 		if(shiftKey.classList.contains('pressed')){
 			clearText();
 		} else {
-			var newText = theTextBox.innerHTML.slice(0, -1);
-			theTextBox.innerHTML = newText;
+			var newText = theTextBox.value.slice(0, -1);
+			theTextBox.value = newText;
 		}
 	//If the Enter key was typed, remove all text from the text box
 	} 
